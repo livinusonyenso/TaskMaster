@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const User = require('../models/user'); // Ensure the path is correct and matches the actual file
+const User = require('../models/User'); // Ensure the path is correct and matches the actual file
 
 // Middleware to protect routes
 async function protect(req, res, next) {
