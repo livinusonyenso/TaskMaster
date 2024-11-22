@@ -17,7 +17,7 @@ if (!token) {
   window.location.href = "./Login.html";
 }
 
-axios.defaults.baseURL = 'http://localhost:5000/api';
+axios.defaults.baseURL = 'https://taskmaster-wg6g.onrender.com/api';
 axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
 
 window.addEventListener('DOMContentLoaded', loadTasks);

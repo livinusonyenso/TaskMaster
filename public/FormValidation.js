@@ -35,7 +35,7 @@ document.getElementById("registerForm").addEventListener("submit", async (event)
 
     try {
         // Make an Axios POST request
-        const response = await axios.post("http://localhost:5000/api/auth/register", userData);
+        const response = await axios.post("https://taskmaster-wg6g.onrender.com/api/auth/register", userData);
         console.log("Response from API:", response.data);
 
         // Display success message if the request was successful

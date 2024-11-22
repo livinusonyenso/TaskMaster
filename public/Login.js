@@ -15,7 +15,7 @@ document.getElementById("loginForm").addEventListener("submit", async (event) =>
 
     try {
         // Send POST request to the login API endpoint
-        const response = await axios.post("http://localhost:5000/api/auth/login", {
+        const response = await axios.post("https://taskmaster-wg6g.onrender.com/api/auth/login", {
             email,
             password
         });
